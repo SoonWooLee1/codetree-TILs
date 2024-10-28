@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() { 
-    for(int n=1; n<=8; n++){
+    for(int n=1; n<=10; n++){
         if(n%2==0 || n%3==0){
             printf("%d ", 1);
         }
