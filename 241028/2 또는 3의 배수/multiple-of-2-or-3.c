@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main() { 
-    for(int n=1; n<=10; n++){
-        if(n%2==0 || n%3==0){
+    int n = 0;
+    scanf("%d", &n);
+    for(int i=1; i<=n; i++){
+        if(i%2==0 || i%3==0){
             printf("%d ", 1);
         }
         else{
