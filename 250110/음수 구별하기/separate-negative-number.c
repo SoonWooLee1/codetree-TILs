@@ -4,7 +4,7 @@ int main() {
     int a;
     scanf("%d", &a);
     printf("%d\n", a);
-    if(a%2!=0){
+    if(a<0){
         printf("minus");
     }
     return 0;
