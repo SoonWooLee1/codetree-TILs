@@ -5,11 +5,12 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println(A==B);
-        System.out.println(A==B);
-        System.out.println(A==B);
-        System.out.println(A==B);
-        System.out.println(A==B);
+        System.out.println(a>=b ? 1 : 0);
+        System.out.println(a>b ? 1 : 0);
+        System.out.println(a<=b ? 1 : 0);
+        System.out.println(a<b ? 1 : 0);
+        System.out.println(a==b ? 1 : 0);
+        System.out.println(a!=b ? 1 : 0);
         
 
 
